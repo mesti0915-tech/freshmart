@@ -1,70 +1,46 @@
-# 🍎 Frutiva - Fresh Fruits Store
+# 🍎 FreshMart - E-Commerce Fruit Store
 
-Frutiva is a modern and responsive frontend e-commerce website for a fresh fruit store. It is built using HTML, CSS, and JavaScript to practice real-world web development skills and UI design principles.
+## ⚡ About This Project
+FreshMart is a modern, responsive frontend e-commerce website for a fresh fruit store.  
+It is built using HTML, CSS, and JavaScript to simulate a real-world online shopping experience with product listings, cart system UI, and checkout design.
+
+This project focuses on **UI design, responsive layout, and frontend development skills**.
+
+---
 
 ## 🚀 Live Demo
-(https://your-netlify-link.netlify.app)  
-*(Replace with your live link after deployment)*
+- Netlify: https://your-live-link.netlify.app  
+- GitHub Pages: https://mesti0915-tech.github.io/freshmart/
 
 ---
 
 ## 📸 Preview
-![Frutiva Preview](assets/preview.png)  
-*(Add a screenshot of your project here)*
+
+> Desktop View  
+![FreshMart Desktop](assets/images/preview-desktop.png)
+
+> Mobile View  
+![FreshMart Mobile](assets/images/preview-mobile.png)
 
 ---
 
 ## 🛠️ Built With
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- Google Fonts (Poppins)
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla JS)  
+- Google Fonts (Poppins)  
+- CSS Grid & Flexbox  
 
 ---
 
-## 📁 Project Structure   
-
-Frutiva/
+## 📁 Project Structure
+Freshmart/
 │
 ├── index.html
 ├── css/
 │ └── style.css
-│
 ├── js/
 │ └── script.js
-│
 ├── assets/
-│ └── images
-│
+│ └── images/
 └── README.md
-
-
----
-
-## 🎯 Features
-- Clean and modern homepage layout
-- Responsive design (mobile-friendly)
-- Google Fonts integration (Poppins)
-- Organized folder structure
-- Ready for e-commerce expansion (products, cart, checkout)
-
----
-
-## 📌 Future Improvements
-- Add product listing section
-- Add shopping cart functionality
-- Add checkout system UI
-- Improve animations and interactivity
-- Connect to backend or API
-
----
-
-## 👨‍💻 Author
-**Abel Asefa**  
-Frontend Developer | HTML, CSS, JavaScript Learner  
-Based in Ethiopia 🇪🇹
-
----
-
-## 📜 License
-This project is open-source and free to use for learning purposes.
