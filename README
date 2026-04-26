@@ -9,7 +9,7 @@ This project focuses on **UI design, responsive layout, and frontend development
 ---
 
 ## 🚀 Live Demo
-- Netlify: https://your-live-link.netlify.app  
+- Netlify: https://fruitgo.netlify.app/
 - GitHub Pages: https://mesti0915-tech.github.io/freshmart/
 
 ---
@@ -44,3 +44,68 @@ Freshmart/
 ├── assets/
 │ └── images/
 └── README.md
+
+---
+
+## 🎯 Features
+
+- Fully responsive design (mobile, tablet, desktop)
+- Modern e-commerce UI layout
+- Product cards with images and pricing
+- Shopping cart UI (quantity, total, controls)
+- Checkout section with receipt design
+- Clean and organized code structure
+- Beginner-friendly frontend project
+
+---
+
+## 📱 Responsive Design
+
+This project is optimized for:
+- 📱 Mobile devices (320px+)
+- 📟 Tablets (600px+)
+- 💻 Desktop screens (900px+)
+
+---
+
+## 🧠 What I Learned
+
+- How to build responsive layouts using CSS Grid & Flexbox
+- Structuring real-world frontend projects
+- Creating reusable UI components
+- Improving spacing, alignment, and visual hierarchy
+- Building e-commerce UI logic (cart + checkout design)
+
+---
+
+## 📌 Future Improvements
+
+- Add full JavaScript cart functionality (add/remove/update items)
+- Connect to backend API or database
+- Add authentication system (login/register)
+- Improve animations and micro-interactions
+- Integrate payment system UI
+- Convert into full-stack e-commerce project
+
+---
+
+## ⚙️ How to Run This Project
+
+1. Clone the repository  
+2. Open folder in VS Code  
+3. Run `index.html` in your browser  
+
+---
+
+## 👨‍💻 Author
+
+**Abel Asefa**  
+Frontend Developer | HTML | CSS | JavaScript  
+Civil Engineering Background → Transitioning into Web Development  
+Based in Ethiopia 🇪🇹  
+Available for freelance projects on Upwork
+
+---
+
+## 📜 License
+This project is open-source and free to use for learning purposes.
