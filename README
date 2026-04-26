@@ -1,0 +1,70 @@
+# 🍎 Frutiva - Fresh Fruits Store
+
+Frutiva is a modern and responsive frontend e-commerce website for a fresh fruit store. It is built using HTML, CSS, and JavaScript to practice real-world web development skills and UI design principles.
+
+## 🚀 Live Demo
+(https://your-netlify-link.netlify.app)  
+*(Replace with your live link after deployment)*
+
+---
+
+## 📸 Preview
+![Frutiva Preview](assets/preview.png)  
+*(Add a screenshot of your project here)*
+
+---
+
+## 🛠️ Built With
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Google Fonts (Poppins)
+
+---
+
+## 📁 Project Structure   
+
+Frutiva/
+│
+├── index.html
+├── css/
+│ └── style.css
+│
+├── js/
+│ └── script.js
+│
+├── assets/
+│ └── images
+│
+└── README.md
+
+
+---
+
+## 🎯 Features
+- Clean and modern homepage layout
+- Responsive design (mobile-friendly)
+- Google Fonts integration (Poppins)
+- Organized folder structure
+- Ready for e-commerce expansion (products, cart, checkout)
+
+---
+
+## 📌 Future Improvements
+- Add product listing section
+- Add shopping cart functionality
+- Add checkout system UI
+- Improve animations and interactivity
+- Connect to backend or API
+
+---
+
+## 👨‍💻 Author
+**Abel Asefa**  
+Frontend Developer | HTML, CSS, JavaScript Learner  
+Based in Ethiopia 🇪🇹
+
+---
+
+## 📜 License
+This project is open-source and free to use for learning purposes.

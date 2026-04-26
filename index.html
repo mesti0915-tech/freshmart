@@ -5,26 +5,138 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frutiva - Fresh Fruits Store</title>
 
+  <meta name="description" content="Frutiva - Fresh Fruits Store">
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="css/styles.css">
   <script src="js/script.js" defer></script>
 </head>
 
 <body>
 
-  <header>
-  <h1>Frutiva</h1>
+  <!-- Header -->
+  <header class="header">
+    <h1>Frutiva</h1>
+   <p class="tagline">Fresh Fruits Delivered Simply</p>
 </header>
 
-<main>
-  <!-- products -->
-  <!-- cart -->
-  <!-- checkout -->
-</main>
+  <!-- Main Layout -->
+  <main class="container">
 
-<footer></footer>
+    <div class="layout">
+
+      <!-- LEFT SIDE -->
+      <div class="left">
+
+        <!-- Products -->
+        <section class="products">
+          <h2>Products</h2>
+
+          <div class="cards">
+            <article class="card">
+              <img src="assets/images/cherry.jpg" alt="Cherry fruit" loading="lazy">
+              <h3>Carton of Cherries</h3>
+              <p>Price: $4</p>
+              <button class="btn">ADD TO CART</button>
+            </article>
+
+            <article class="card">
+              <img src="assets/images/strawberry.jpg" alt="Strawberry fruit" loading="lazy">
+              <h3>Carton of Strawberries</h3>
+              <p>Price: $5</p>
+              <button class="btn">ADD TO CART</button>
+            </article>
+
+            <article class="card">
+              <img src="assets/images/oranges.jpg" alt="Oranges" loading="lazy">
+              <h3>Bag of Oranges</h3>
+              <p>Price: $10</p>
+              <button class="btn">ADD TO CART</button>
+            </article>
+          </div>
+        </section>
+
+        <!-- Cart -->
+        <section class="cart">
+          <h2>Your Shopping Cart</h2>
+
+          <div class="cart-items">
+
+            <article class="cart-item">
+              <h3>Carton of Cherries</h3>
+              <p>Price: $4</p>
+              <p>Quantity: <span class="quantity">3</span></p>
+              <p>Total: $<span class="item-total">12</span></p>
+              <div class="cart-controls">
+                <button>+</button>
+                <button>-</button>
+                <button class="remove">Remove</button>
+              </div>
+            </article>
+
+            <article class="cart-item">
+              <h3>Carton of Strawberries</h3>
+              <p>Price: $5</p>
+              <p>Quantity: <span class="quantity">1</span></p>
+              <p>Total: $<span class="item-total">5</span></p>
+              <div class="cart-controls">
+                <button>+</button>
+                <button>-</button>
+                <button class="remove">Remove</button>
+              </div>
+            </article>
+
+            <article class="cart-item">
+              <h3>Bag of Oranges</h3>
+              <p>Price: $10</p>
+              <p>Quantity: <span class="quantity">2</span></p>
+              <p>Total: $<span class="item-total">20</span></p>
+              <div class="cart-controls">
+                <button>+</button>
+                <button>-</button>
+                <button class="remove">Remove</button>
+              </div>
+            </article>
+
+          </div>
+        </section>
+
+      </div>
+
+      <!-- RIGHT SIDE (Checkout) -->
+      <aside class="checkout">
+        <h2>Checkout</h2>
+
+        <p>Cart Total: $<span id="cart-total">37</span></p>
+
+        <div class="payment">
+          <label for="cash">Enter Cash Received: $</label>
+          <input type="number" id="cash" min="0" placeholder="12">
+          <button>SUBMIT</button>
+        </div>
+
+        <div class="receipt">
+          <h3>Receipt</h3>
+          <p>Cash Received: $25</p>
+          <p>Remaining Balance: -$12</p>
+          <p>Please pay additional amount.</p>
+
+          <hr>
+
+          <p>Cash Received: $37</p>
+          <p>Cash Returned: $0</p>
+          <p>Thank You!</p>
+        </div>
+      </aside>
+
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Frutiva. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
